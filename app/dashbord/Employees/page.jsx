@@ -1,7 +1,7 @@
 "use client"
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-import Profile from "../../Pictures/profile.jpg"
+// import Profile from "../../Pictures/profile.jpg"
 import { IoBriefcaseOutline ,IoDocumentTextOutline } from "react-icons/io5";
 import { CiUnlock } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
@@ -28,7 +28,7 @@ const Employees = () => {
           <div className="card-profile">
           {/* Here for Info Profile */}
           <div className="img w-1/2 h-full flex gap-3">
-            <Image className="w-24 h-full" src={Profile} alt="Page Not Found" />
+            {/* <Image className="w-24 h-full" src={Profile} alt="Page Not Found" /> */}
           {/* Here for Detalis User */}
           <div className="info flex flex-col justify-center gap-1">
             <h3 className="font-semibold text-xl">Mariam Aly</h3>
