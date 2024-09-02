@@ -8,5 +8,6 @@ The page link :- 👉 https://task-cyparta-h3jlyjtnd-mohamed-adels-projects-2d1f
 and the page are not responsive to small screen sizes. The purpose of this was a simple task for a company for hiring purposes only
 
 To log in to access the other page
+
 Email-Id 👉 test@task.com
 Password 👉 123456
