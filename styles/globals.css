@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+img{
+  cursor: pointer;
+}
+/* Here Start for Style NavBar */
+.parent-navbar {
+  @apply w-72 h-screen flex justify-end items-center;
+}
+.container-navbar {
+  @apply w-11/12 border rounded-3xl overflow-hidden;
+  height: 95%;
+}
+.a-link {
+  @apply flex items-center gap-4 font-medium;
+  font-size: 16px;
+  color: #242223;
+}
+.li-navbar {
+  @apply p-2 flex  items-center gap-3 rounded-r-3xl cursor-pointer pl-9;
+}
+.icon-navbar {
+  @apply text-2xl;
+}
+.toggle-ul {
+  @apply w-full flex justify-end;
+}
+.toggle-a-link {
+  @apply flex items-center gap-4 justify-start;
+  font-size: 12px;
+}
+.toggle-icon {
+  @apply text-xl;
+  color: #242424c3;
+}
+/* Here for Hover */
+.container-navbar li:hover {
+  color: #ee232f;
+  background-color: #f9eaeb;
+  border-left: 3px solid #ec232b;
+}
+.container-navbar li:hover a {
+  color: #ee232f;
+}
+/* Here for Style if the Tag Link is active he's will take Style active */
+.container-navbar .active {
+  color: #ee232f !important;
+  background-color: #f9eaeb !important;
+  border-left: 3px solid #ec232b !important;
+}
+.container-navbar .active  a{
+  color: #ee232f !important;
+}
+/* Here End for Style NavBar */
+
+/* Style btn Notification */
+.btn-notification {
+  @apply bg-white border-transparent text-2xl w-9 h-9 flex justify-center items-center;
+  background-color: #a2a1a81a;
+}
+/* Here Style For Page Employees */
+.parent-employess {
+  @apply w-full flex justify-center items-center;
+  height: 89.7vh;
+}
+.container-employess{
+  @apply w-11/12 h-full
+}
+.header-profile{
+  @apply w-full h-1/5 flex flex-col justify-start gap-4;
+  border-bottom: 1px solid #A2A1A833;
+}
+.card-profile{
+  @apply w-full flex gap-3 justify-between items-center p-1;
+  height: 70%;
+}
+.icon-info{
+  font-size: 16px;
+  color: #242223;
+}
+.btn button{
+  @apply flex justify-center items-center gap-3 p-2 text-xs rounded-md;
+  background-color: #242223;
+  color: #fff;
+}
+/* Here Style for Employees Users */
+.info-user{
+  height: auto;
+}
+.card-detalis-user{
+  @apply  w-2/6 h-full flex flex-col gap-1 justify-center items-start;
+  border-bottom: 1px solid #A2A1A81A;
+}
+.card-detalis-user h3{
+  color: #16151C;
+  font-size: 16px;
+}
+.info-li:hover{
+  border-bottom: 2px solid #ec232b;
+}
+.info-li:hover a{
+  color: #ec232b;
+}
+.layout .active{
+  border-bottom: 2px solid #ec232b;
+  color: #ec232b;
+
+}
+/* Here Style for Login */
+
+.parent-login{
+  @apply  w-full h-screen flex justify-center items-center border
+}
+.container-login{
+  @apply w-11/12 h-full flex justify-center items-center;
+}
+.img-login{
+  height: 25%;
+}
+.card-login{
+  width: 40%;
+  border: #E9E9E9 solid .6px;
+
+}
+.form-login{
+  @apply flex w-full justify-center items-center flex-col gap-3;
+  height: 75%;
+}
+.desgin-input{
+  @apply flex flex-col h-auto gap-3 py-2;
+  width: 85%;
+}
+.input-login{
+  @apply focus:outline-none focus:ring-1 focus:ring-gray-400 rounded-md px-3 text-xs border border-gray-200;
+  height: 40px;
+  /* border: 1px solid #1212121A; */
+  outline-color: #333333;
+}
+.button-login{
+  width: 70%;
+  height: 40px;
+  background: #262626;
+  font-size: 15px;
+  color: #fff;
+}
+input::placeholder{
+  font-size: 14px;
+  color: #CDCDCD;
+}
+/* Here for Error Input */
+.Error{
+  @apply border border-red-500;
+}
