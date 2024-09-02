@@ -1,7 +1,7 @@
 "use client"
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-import Profile from "../Picture/Profile.jpg"
+import Profile from "../Picture/bg.jpg"
 import { IoBriefcaseOutline ,IoDocumentTextOutline } from "react-icons/io5";
 import { CiUnlock } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
